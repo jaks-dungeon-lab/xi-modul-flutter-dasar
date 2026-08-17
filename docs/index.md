@@ -24,7 +24,7 @@ Sebelum memulai materi pertama, pastikan kamu sudah menguasai fondasi kemampuan 
 
 - Dasar-dasar pengoperasian komputer, manajemen *folder*, dan navigasi *file*.
 - Logika dasar algoritma pemrograman.
-- **Pemrograman Dart**: Modul ini tidak lagi membahas konsep teori bahasa dasar. Kamu diasumsikan telah lulus materi **Dart Dasar**, percabangan **Control Flow**, hingga pemahaman **OOP**. (Referensi: [Modul Dart Programming](https://github.com/smk-icb-ct-rpl-lab/xi-modul-dart-programming.git)).
+- **Pemrograman Dart**: Modul ini tidak lagi membahas konsep teori bahasa dasar. Kamu diasumsikan telah lulus materi **Dart Dasar**, percabangan **Control Flow**, hingga pemahaman **OOP**. (Referensi: [Modul Dart Programming](https://jaks-dungeon-lab.github.io/xi-modul-dart-programming/)).
 - Pemahaman struktur dasar web seperti tabel HTML/CSS akan sangat membantu mempercepat pemahamanmu, meski secara teknis hal ini tidak diwajibkan.
 
 ---

@@ -71,3 +71,5 @@ markdown_extensions:
   - md_in_html
 plugins:
   - search
+extra:
+  homepage: https://jaks-dungeon-lab.github.io
