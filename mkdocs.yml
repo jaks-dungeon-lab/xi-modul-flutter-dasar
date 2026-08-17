@@ -1,0 +1,73 @@
+site_name: Kelas XI Flutter Dasar
+theme:
+  name: material
+  font:
+    text: Inter
+    code: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+nav:
+  - Home: index.md
+  - Dasar-Dasar Flutter:
+    - Pengenalan Flutter: dasar_dasar_flutter/00_pengenalan_flutter.md
+    - Struktur Projek: dasar_dasar_flutter/01_struktur_projek.md
+    - Aplikasi Pertama: dasar_dasar_flutter/02_aplikasi_pertama.md
+    - Package: dasar_dasar_flutter/03_package.md
+    - Rangkuman: dasar_dasar_flutter/04_rangkuman.md
+    - Quiz: dasar_dasar_flutter/05_quiz.md
+  - Dasar Widget:
+    - Pengenalan Widget: dasar_widget/00_pengenalan_widget.md
+    - Stateless Widget: dasar_widget/01_stateless_widget.md
+    - Stateful Widget: dasar_widget/02_stateful_widget.md
+    - Scaffold: dasar_widget/03_scaffold.md
+    - Padding, Center, Container: dasar_widget/04_padding_center_container.md
+    - Row & Column: dasar_widget/05_row_column.md
+    - Studi Kasus Daftar Siswa: dasar_widget/06_studi_kasus_daftar_siswa.md
+    - Button: dasar_widget/07_button.md
+    - Input: dasar_widget/08_input.md
+    - Image: dasar_widget/09_image.md
+    - Font: dasar_widget/10_font.md
+    - ListView: dasar_widget/11_listview.md
+    - Navigation: dasar_widget/12_navigation.md
+    - Responsive Layout: dasar_widget/13_responsive_layout.md
+    - Lanjut Studi Kasus: dasar_widget/14_lanjut_studi_kasus.md
+    - Rangkuman: dasar_widget/15_rangkuman.md
+    - Quiz: dasar_widget/16_quiz.md
+  - Deployment:
+    - Pengenalan: deployment/00_pengenalan_deployment.md
+    - Build APK (Android): deployment/01_apk.md
+    - Build IPA (iOS): deployment/02_ipa.md
+    - Build Web: deployment/03_web.md
+    - Rangkuman: deployment/04_rangkuman.md
+    - Quiz: deployment/05_quiz.md
+  - Tugas Besar Akhir:
+    - Katalog Kantin Sekolah: tugas_akhir/00_instruksi_proyek.md
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+plugins:
+  - search
