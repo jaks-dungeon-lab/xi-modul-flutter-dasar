@@ -179,4 +179,9 @@ class HalamanDetailSiswa extends StatelessWidget {
 }
 ```
 
+<div>
+  <img src="../../assets/hasil_akhir_daftar_siswa.png" alt="Hasil Aplikasi Pertama" width="250" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 Selamat! Mahakaryamu telah selesai. Kamu telah sukses merangkai secara utuh seluruh serpihan ilmu *Widget Dasar* Flutter (dari tata letak, gambar, fon, interaksi tombol, hingga perpindahan layar) menjadi satu aplikasi simulasi yang interaktif, rapi, canggih, dan tidak mudah rusak!
+

@@ -74,3 +74,7 @@ class AplikasiDaftarSiswa extends StatelessWidget {
 ```
 
 Coba jalankan (*run*) kode di atas. Dengan susunan komponen *Widget* ini, kamu sudah berhasil membuat tampilan identitas yang tampak seperti daftar siswa profesional!
+
+<div>
+  <img src="../../assets/hasil_awal_daftar_siswa.png" alt="Hasil Aplikasi Pertama" width="250" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
